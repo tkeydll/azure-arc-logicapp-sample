@@ -1,0 +1,11 @@
+{
+    "azureLogicAppsStandard.deploySubpath": "bin/Release/netcoreapp3.1/publish",
+    "azureLogicAppsStandard.projectLanguage": "C#",
+    "azureLogicAppsStandard.projectRuntime": "~3",
+    "debug.internalConsoleOptions": "neverOpen",
+    "azureLogicAppsStandard.preDeployTask": "publish",
+    "azureFunctions.deploySubpath": "bin/Release/netcoreapp3.1/publish",
+    "azureFunctions.projectLanguage": "C#",
+    "azureFunctions.projectRuntime": "~3",
+    "azureFunctions.preDeployTask": "publish (functions)"
+}

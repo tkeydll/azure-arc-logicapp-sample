@@ -1,0 +1,21 @@
+{
+  "managedApiConnections": {
+    "twitter": {
+      "api": {
+        "id": "/subscriptions/c0e3802a-9ec3-410c-bd76-3c7cf8ac7534/providers/Microsoft.Web/locations/japaneast/managedApis/twitter"
+      },
+      "connection": {
+        "id": "/subscriptions/c0e3802a-9ec3-410c-bd76-3c7cf8ac7534/resourceGroups/arc-logicapp/providers/Microsoft.Web/connections/twitter"
+      },
+      "connectionRuntimeUrl": "https://a7e4ee08ed34b69a.11.common.logic-japaneast.azure-apihub.net/apim/twitter/19adc8a5eccc490a8c64ff3fce40d7fc/",
+      "authentication": {
+        "type": "ActiveDirectoryOAuth",
+        "audience": "https://management.core.windows.net/",
+        "credentialType": "Secret",
+        "clientId": "@appsetting('WORKFLOWAPP_AAD_CLIENTID')",
+        "tenant": "@appsetting('WORKFLOWAPP_AAD_TENANTID')",
+        "secret": "@appsetting('WORKFLOWAPP_AAD_CLIENTSECRET')"
+      }
+    }
+  }
+}
